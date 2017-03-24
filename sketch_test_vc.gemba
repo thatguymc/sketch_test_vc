@@ -1,0 +1,24 @@
+
+# Woohoo!
+# Your designer is using Gemba to add and update assets all by themselves. Gemba also
+# catches common problems before they reach you, like invalid or mismatched dimensions.
+# 
+# This YAML file configures this repo for Gemba. Push changes to this file, and
+# your designers will use your updated config next time they launch Gemba.
+
+
+remote_url: https://github.com/thatguymc/sketch_test_vc.git
+asset_extensions: 
+  - jpeg
+  - jpg
+  - png
+  - gif
+
+ignored_dirs: 
+  - Pods
+  - Frameworks
+  - Submodules
+  - External
+repo_name: sketch_test_vc
+# -- 
+# Learn more at http://gemba.io or contact support@gemba.io
